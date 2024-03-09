@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(121, 249, 249);}
+
+p{
+  font-family: Merriweather;
+  color: rgb(57, 0, 111);
+  text-transform: capitalize;
+}
+
+div{
+  text-transform: capitalize;
+  font-family: Merriweather;
+  color: rgb(57, 0, 111);
+}
+
+.link{
+  font-size: 15px;
+  color: rgb(84, 103, 248);
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.nike{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  text-align: center;
+ }
+ 
+.first-text{
+  font-size: 22px;
+  color: rgb(57, 0, 111);
+  font-style: italic;
+  text-align: center;
+}
+
+.second-text{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(57, 0, 111,.5);
+  text-decoration: underline;
+  text-transform: capitalize;
+  margin-top: -19px;
+  margin-left: 275px;
+  font-style: italic;
+}
+.free{
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.money{
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 100px;
+  }
+  
+button{
+  background-color: steelblue;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  color: rgb(75, 20, 20);
+  font-size: 16px;
+  border-radius: 10px;
+  border: 0;
+  position: absolute;
+  transition: opacity 0.15s;
+  transition: box-shadow 0.15s;
+  font-family: Merriweather;
+  font-weight: bold;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 60%;
+}
+
+.add{
+  left: 38%;
+  }
+
+.buynow{
+  left: 63%;
+}
+
+button:hover{opacity: 0.8;
+  box-shadow: 2px 2px 5px rgba(0, 8, 255, 0.5);
+}
+
+button:active{
+  opacity: 0.5;
+} 

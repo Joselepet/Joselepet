@@ -1,5 +1,3 @@
-<!doctype>
-<html>
   <head>
     <title>youtube.com Clone</title>
     <link rel="preconnect" 
